@@ -1,0 +1,14 @@
+Instruction --------- with django bindings on windows operating system
+# settings are configured in django settings.py file
+
+run from where manage.py file present
+# to start celery
+$ celery -A demoproject.celery worker --loglevel=info --pool=solo
+
+#in another terminal in same path as about
+$ python manage.py runserver
+
+# run the collection using different items
+
+
+
