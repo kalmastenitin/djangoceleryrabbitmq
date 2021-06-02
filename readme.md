@@ -20,7 +20,7 @@ curl --location --request POST 'localhost:8000/demoapp/' \
     "item": "pen"
 }'
 
-7777777. you can check queue list using `sudo rabbitmqctl list_queues` command 
+7. you can check queue list using `sudo rabbitmqctl list_queues` command 
 
 
 Process:
